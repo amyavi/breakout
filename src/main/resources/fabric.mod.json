@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "breakout",
+  "version": "${version}",
+
+  "entrypoints": {
+    "preLaunch": [
+      { "adapter": "breakout:languageadapter", "value": "com.github.amyavi.breakout.fabric.BreakoutFabricPreLaunchEntrypoint" }
+    ]
+  },
+  "languageAdapters": {
+    "breakout:languageadapter": "com.github.amyavi.breakout.fabric.BreakoutFabricLanguageAdapter"
+  },
+
+  "depends": {
+    "java": ">=${java_version}",
+    "fabricloader": ">=0.12.0"
+  }
+}

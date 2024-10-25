@@ -1,0 +1,5 @@
+name: Breakout
+version: '${version}'
+api-version: '1.13'
+load: STARTUP
+main: com.github.amyavi.breakout.bukkit.BreakoutBukkit

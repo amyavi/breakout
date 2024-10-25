@@ -1,0 +1,7 @@
+name: Breakout
+version: '${version}'
+api-version: '1.19' # minimum
+load: STARTUP
+main: com.github.amyavi.breakout.bukkit.BreakoutBukkit
+bootstrapper: com.github.amyavi.breakout.paper.BreakoutPaperBootstrap
+loader: com.github.amyavi.breakout.paper.BreakoutPaperLoader
